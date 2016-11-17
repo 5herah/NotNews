@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "NotNews!",
+  "description": "This extension indicates when you're on a website that has been flagged as a questionable news source.",
+  "version": "1.0",
+
+  "background": {
+  "scripts": ["sitewarning.js", "blacklist.js"],
+  "persistent": false
+  },
+
+  "browser_action": {
+    "default_icon": "notnews.png",
+    "default_title": "Make fake news more obvious"
+  },
+  "permissions": [
+    "tabs",
+    "https://ajax.googleapis.com/"
+  ]
+}
