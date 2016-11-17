@@ -1,11 +1,3 @@
-// chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
-//   No tabs or host permissions needed!
-//   console.log('Turning ' + tab.url + ' red!');
-//   chrome.tabs.executeScript({
-//     code: 'document.body.style.backgroundColor="red"'
-//   });
-// });
-
 chrome.tabs.onUpdated.addListener(
 function ( tabId, changeInfo, tab )
 {
@@ -41,10 +33,6 @@ function ( tabId, changeInfo, tab )
 
         });
 
-
-        // if ( fakeNewsURLs.site == [scrubbedURL] )  {
-        //   warnAboutFakeNews();
-        // }
     }
 }
 );
