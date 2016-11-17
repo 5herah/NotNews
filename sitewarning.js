@@ -11,7 +11,7 @@ function ( tabId, changeInfo, tab )
 {
   var fakeNewsURLs = getFakeNewsURLs();
 
-  if ( changeInfo.status === "complete" )
+  if ( changeInfo.status === "loading" )
     {
         //lowercase
         theURL = tab.url;

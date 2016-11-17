@@ -3,7 +3,7 @@
 
   "name": "NotNews!",
   "description": "This extension indicates when you're on a website that has been flagged as a questionable news source.",
-  "version": "1.0",
+  "version": "1.1",
 
   "background": {
   "scripts": ["sitewarning.js", "blacklist.js"],
