@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "NotNews!",
-  "description": "This extension indicates when you're on a website that has been flagged as a questionable news source.",
+  "description": "Indicates when you're on a website that's been flagged as a questionable news source, or about to go to one from your Facebook feed.",
   "version": "1.3",
 
   "background": {
@@ -19,7 +19,7 @@
 
   "browser_action": {
     "default_icon": "notnews.png",
-    "default_title": "Make fake news more obvious"
+    "default_title": "Make questionable news more obvious"
   },
   "permissions": [
     "tabs",
